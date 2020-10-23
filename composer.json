@@ -1,0 +1,19 @@
+{
+    "name": "akyuz/BNG_RESTAPI",
+    "authors": [
+        {
+            "name": "Celal Akyüz",
+            "email": "cllakyz@hotmail.com"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^5.2",
+        "ext-pdo": "*",
+        "ext-json": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "./app"
+        }
+    }
+}
